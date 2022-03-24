@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../components/category_item.dart';
 import '../data/dammy_data.dart';
 
-class CategorriesScreen extends StatelessWidget {
-  const CategorriesScreen({Key? key}) : super(key: key);
+class CategoriesScreen extends StatelessWidget {
+  const CategoriesScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
