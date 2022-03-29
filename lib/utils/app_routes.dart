@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:meals/screens/tabs_screen.dart';
 
 import '../screens/categories_meals_screen.dart';
 import '../screens/categories_screen.dart';
+import '../screens/tabs_screen.dart';
 import '../screens/meal_detail_screen.dart';
 
 class AppRoutes {
@@ -11,7 +13,7 @@ class AppRoutes {
 }
 
 var myRoutes = {
-  AppRoutes.home: (context) => const CategoriesScreen(),
+  AppRoutes.home: (context) => const TabsScreen(),
   AppRoutes.categoryMeals: (context) => const CategoriesMealsScreen(),
   AppRoutes.mealDetail: (context) => const MealDetailScreen(),
 };
