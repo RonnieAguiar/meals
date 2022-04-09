@@ -56,7 +56,7 @@ List<Category> dummyCategories = const [
   ),
 ];
 
-List<Meal> dummyMeal = [
+List<Meal> dummyMeals = [
   Meal(
     id: 'm1',
     categories: ['c1', 'c2'],
