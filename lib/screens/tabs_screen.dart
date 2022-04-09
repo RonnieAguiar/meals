@@ -5,9 +5,9 @@ import 'categories_screen.dart';
 import 'favorite_screen.dart';
 
 class TabsScreen extends StatefulWidget {
-  List<Meal> favoriteMeals;
+  final List<Meal> favoriteMeals;
 
-  TabsScreen(this.favoriteMeals, {Key? key}) : super(key: key);
+  const TabsScreen(this.favoriteMeals, {Key? key}) : super(key: key);
 
   @override
   State<TabsScreen> createState() => _TabsScreenState();
